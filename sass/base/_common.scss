@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: $main-font;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+.section {
+  padding: 94px 0;
+}
+img {
+  display: block;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.hidden {
+  display: none;
+}
