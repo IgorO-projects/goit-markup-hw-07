@@ -596,7 +596,7 @@ img {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  color: var(--title-text-color);
+  color: #212121;
 }
 
 .teamcard-list-text {
@@ -605,7 +605,7 @@ img {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  color: var(--main-text-color);
+  color: #757575;
 }
 
 .clients-list {
@@ -789,7 +789,7 @@ img {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
   padding: 20px 24px;
-  background-color: var(--classic-white);
+  background-color: #ffffff;
 }
 
 .projects-wrapper {

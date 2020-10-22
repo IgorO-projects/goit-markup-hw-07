@@ -1,3 +1,62 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "roboto", serif;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+
+.section {
+  padding: 94px 0;
+}
+
+img {
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-family: "raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  margin-right: 90px;
+}
+
+.logo-web {
+  color: #2196f3;
+}
+
+.logo-studio-dark {
+  color: #212121;
+}
+
+.logo-studio-white {
+  color: #ffffff;
+}
+
 .projects-btn-list {
   display: flex;
   justify-content: center;
@@ -178,7 +237,7 @@
   border: 1px solid #eeeeee;
   box-sizing: border-box;
   padding: 20px 24px;
-  background-color: var(--classic-white);
+  background-color: #ffffff;
 }
 
 .projects-wrapper {

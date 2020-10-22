@@ -1,6 +1,10 @@
 // UTILS
 @import "./utils/variables";
+// BASE
+@import "./base/common";
+@import "./base/container";
 // COMPONENTS
+@import "./components/logo";
 @import "./components/portfolio-filter";
 @import "./components/social-list";
 // LAYOUT
