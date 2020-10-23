@@ -4,13 +4,13 @@
   font-size: 26px;
   line-height: 1.192;
   margin-right: 90px;
-}
-.logo-web {
-  color: $accent-color;
-}
-.logo-studio-dark {
-  color: $classic-black;
-}
-.logo-studio-white {
-  color: $classic-white;
+  &-web {
+    color: $accent-color;
+  }
+  &-studio-dark {
+    color: $classic-black;
+  }
+  &-studio-white {
+    color: $classic-white;
+  }
 }
