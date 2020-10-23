@@ -118,7 +118,7 @@ img {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  border-color: #2196f3;
+  border-color: transparent;
   padding: 10px 32px;
   font-family: Roboto, serif;
   font-style: normal;
@@ -753,6 +753,7 @@ img {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border-color: transparent;
 }
 
 .sign-btn::after {
