@@ -3,14 +3,12 @@
     background-color: #2f303a;
 
     & .contacts-container {
-      display: flex;
-      flex-direction: column;
+      @extend %flex-column;
       margin-right: 70px;
     }
     
     &-address {
-      display: flex;
-      flex-direction: column;
+      @extend %flex-column;
     }
     & .link:not(:last-child) {
       margin-bottom: 9px;

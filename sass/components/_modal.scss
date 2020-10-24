@@ -37,9 +37,7 @@
     }
     &-btn-close {
       position: absolute;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      @extend %flex-center;
       top: 8px;
       right: 8px;
       width: 30px;
@@ -120,9 +118,7 @@
       color: $accent-color;
     }
     &-policy-field {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      @extend %flex-center;
       margin-bottom: 30px;
       font-weight: 400;
       font-size: 14px;
