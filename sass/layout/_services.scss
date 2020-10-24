@@ -1,13 +1,14 @@
-.services-list {
+.services {
+  &-list {
     display: flex;
     justify-content: space-between;
+
+    &-item {
+      position: relative;
+    }
   }
-  /* .services-list-item:not(:last-child) {
-    margin-right: 30px;} */
-  .services-list-item {
-    position: relative;
-  }
-  .services-text {
+  
+  &-text {
     position: absolute;
     width: 100%;
     left: 0;
@@ -22,3 +23,4 @@
     text-transform: uppercase;
     color: $classic-white;
   }
+}

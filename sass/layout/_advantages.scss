@@ -1,47 +1,49 @@
-.andvantages {
+.advantages {
     padding-top: 94px;
+    &-list {
+      display: flex;
+      &-item:not(:last-child) {
+        margin-right: 30px;
+      }
+      &-item::before {
+        content: "";
+        display: block;
+        height: 120px;
+        background-color: $secondary-background;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 4px;
+        margin-bottom: 30px;
+      }
+      &-title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.142;
+        text-transform: uppercase;
+        color: $classic-black;
+        margin-bottom: 12px;
+      }
+      &-text {
+        max-width: 270px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.714;
+        color: $main-text-color;
+      }
+    }
   }
-  .advantages-list {
-    display: flex;
-  }
-  
-  .advantages-list-item:not(:last-child) {
-    margin-right: 30px;
-  }
-  .advantages-list-item::before {
-    content: "";
-    display: block;
-    height: 120px;
-    background-color: $secondary-background;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 4px;
-    margin-bottom: 30px;
-  }
-  .icon-aerial::before {
+ 
+.icon{
+  &-aerial::before {
     background-image: url("../images/advantages/icon-aerial.svg");
   }
-  .icon-clock::before {
+  &-clock::before {
     background-image: url("../images/advantages/icon-clock.svg");
   }
-  .icon-laptop::before {
+  &-laptop::before {
     background-image: url("../images/advantages/icon-laptop.svg");
   }
-  .icon-astronaut::before {
+  &-astronaut::before {
     background-image: url("../images/advantages/icon-astronaut.svg");
   }
-  .advantages-list-title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.142;
-    text-transform: uppercase;
-    color: $classic-black;
-    margin-bottom: 12px;
-  }
-  .advantages-list-text {
-    max-width: 270px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.714;
-    color: $main-text-color;
-  }
+}
